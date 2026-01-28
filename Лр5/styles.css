@@ -1,0 +1,28 @@
+/* файл styles.css */
+body {
+  background: #B2AF8A;
+  background: linear-gradient(135deg, #B2AF8A, #3FF15B);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+form {
+  background: #B2AF8A;
+  background: linear-gradient(135deg, #B2AF8A, #3FF15B);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input,select,button{
+background: #CC5297;
+background: linear-gradient(135deg, #CC5297, #6E5183);
+}
+
+textarea{
+background: #E4BE27;
+background: linear-gradient(135deg, #E4BE27, #A8C121);
+}

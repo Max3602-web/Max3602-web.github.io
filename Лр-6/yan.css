@@ -1,0 +1,126 @@
+body{
+    margin: 40px;
+    background-color: rgb(220, 220, 220);
+}
+
+div{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+button:nth-child(2n){
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button:nth-child(4n){
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: orange;
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+button:nth-child(5n){
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+
+button:nth-child(7n){
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+button:nth-child(9n){
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: white ;
+    margin-bottom: 10px;
+}
+
+button:nth-child(11n){
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: white ;
+    margin-bottom: 10px;
+    width: 190px; 
+    height: 41px;
+    text-align: start;
+}
+
+button:nth-child(13n){
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: white ;
+    margin-bottom: 10px;
+    height: 41px;
+}
+
+button:nth-child(15n){
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: white ;
+    margin-bottom: 10px;
+    height: 41px;
+}
+
+button:nth-child(17n){
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: white ;
+    margin-bottom: 10px;
+    width: 190px; 
+    height: 41px;
+    text-align: start;  
+}
+
+button:hover{
+    outline: none;
+    border: none;
+    transform: scale(1.2);
+    background-color: gray;
+}
+
+h1{
+    display: inline;
+    padding-right:85px; 
+}
+
+ul {
+    display: inline-block;
+}
+
+li::marker {
+  display: inline-block;
+  content: "★";   
+  color: gold; 
+} 

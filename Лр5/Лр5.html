@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<meta charset="UTF-8" />
+<title>Пример с внешним CSS</title>
+<link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Профессиональная информация</title>
+</head>
+<body>
+<form action="#" method="post"> 
+    <h1>Профессиональная информация</h1>  
+        <fieldset>
+            <legend>Профессиональная информация</legend>
+            <label for="company">Компания</label>
+                <input type="text" id="company" name="company" />
+            <label for="position">Должность</label>
+                <input type="text" id="position" name="position"/>
+            <label for="industry">Сфера деятельности</label>
+            <select id="industry" name="industry">
+                <option value="marketing">Маркетинг</option>
+                <option value="logistics">Логистика</option>
+                <option value="procurement">Закупка</option>
+            </select>  
+        </fieldset>
+
+        <fieldset>
+            <legend>Выбор пакета участия *</legend>
+                <input type="radio" id="standard" name="participation" value="standard">
+                <label for="standard">Стандарт (5000 руб.) - доступ на все доклады</label><br>
+                <input type="radio" id="advanced" name="participation" value="advanced">
+                <label for="advanced">Продвинутый (10000 руб.) - стандарт + воркшоп</label><br>
+                <input type="radio" id="vip" name="participation" value="vip">
+                <label for="vip">Vip (20000 руб.) - всё выше + ужин со спикерами</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Дополнительные опции</legend>
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            <label for="newsletter">Получить рассылку о предстоящих событиях</label><br>
+            <input type="checkbox" id="souvenir" name="souvenir" value="yes">
+            <label for="souvenir">Заказать сувенирную продукцию (+1500 руб.)</label>
+        </fieldset>
+        <button type="submit">Назад</button>
+        <button type="submit">Продолжить</button>
+        <h1>Особые пожелания</h1>
+        <fieldset>
+            <legend>Особые пожелания (необязательно)</legend>
+            <label for="diet">Диетические предпочтения (можно выбрать несколько, зажав Ctrl):</label><br>
+            <select id="diet" name="diet[]" multiple size="3">
+                <option value="diet1">Безглютеновое</option>
+                <option value="diet2">Вегетарианское</option>
+                <option value="diet3">Веганское</option>
+                <option value="no_pref">Нет предпочтений</option>
+            </select>   
+            <legend>Дополнительные комментарии или пожелания:</legend>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Здесь вы можете оставить любые дополнительные пожелания..."></textarea>
+        </fieldset>
+        <input type="checkbox" id="souvenir" name="souvenir" value="yes">
+            <label for="souvenir">Я прочитал и согласен с условиями участия и политикой конфиденциальности *</label><br>
+            <button type="submit">Завершить регистрацию</button>
+</form>
+</body>
+</html>

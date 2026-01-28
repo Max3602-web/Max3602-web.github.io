@@ -1,0 +1,23 @@
+body{
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+.taskInput{
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 8px 16px;
+    width: 558px;
+    height: 38px;
+}
+
+.addButton{
+    border: 2px solid purple;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 85px;
+    height: 57px;
+}
+

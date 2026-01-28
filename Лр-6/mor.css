@@ -1,0 +1,85 @@
+tr:nth-child(){
+    background-color: aliceblue;
+}
+
+td:before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+td:after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+table tbody tr td:nth-child(even),
+table tbody tr td:nth-child(odd) {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: aqua;
+  color: red;
+}
+
+tr:nth-child(10) td:nth-child(3){
+    background-color: bisque;
+} 
+
+tr:nth-child(1) td:nth-child(9){
+    background-color: bisque;
+} 
+
+tr:nth-child(3) td:nth-child(7){
+    background-color: bisque;
+} 
+
+tr:nth-child(5) td:nth-child(6){
+    background-color: bisque;
+} 
+
+tr:nth-child(2) td:nth-child(1){
+    background-color: yellow;
+} tr:nth-child(3) td:nth-child(1){
+    background-color: yellow ;
+} tr:nth-child(4) td:nth-child(1){
+    background-color:  yellow;
+} 
+
+tr:nth-child(8) td:nth-child(9){
+    background-color: yellow;
+} tr:nth-child(8) td:nth-child(8){
+    background-color: yellow ;
+} tr:nth-child(8) td:nth-child(7){
+    background-color:  yellow;
+} 
+
+tr:nth-child(7) td:nth-child(3){
+    background-color: darkblue;
+} tr:nth-child(6) td:nth-child(3){
+    background-color: darkblue;
+} tr:nth-child(5) td:nth-child(3){
+    background-color:  darkblue;
+} tr:nth-child(4) td:nth-child(3){
+    background-color:  darkblue;
+} 
+
+tr:nth-child(6) td:nth-child(9){
+    background-color:  green;
+} tr:nth-child(5) td:nth-child(9){
+    background-color:  green;
+} 
+
+tr:nth-child(2) td:nth-child(3){
+    background-color:  green;
+} tr:nth-child(2) td:nth-child(4){
+    background-color:  green;
+} 
+
+tr:nth-child(10) td:nth-child(5){
+    background-color:  green;
+} tr:nth-child(9) td:nth-child(5){
+    background-color:  green;
+} 

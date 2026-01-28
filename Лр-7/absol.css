@@ -1,0 +1,83 @@
+body{
+    
+    background: #1C224B;
+    background: linear-gradient(0deg, #1C224B, #29BF99);
+}
+
+.absol{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin-top: 20px;
+}
+
+.texte{
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 250px;
+    position: relative; 
+    transition: transform 0.3s ease, z-index 0.3s ease; 
+    z-index: 1;
+}
+
+.texte:hover{
+    transform: scale(1.2);
+    z-index: 1000000;
+}
+
+.h{
+    position: absolute;
+    top: 0%;
+    left: 41%;
+    border: 1px solid #ccc;
+}
+
+.a{
+    position: absolute;
+    top: 5%;
+    left: 26%;
+    border: 1px solid #ccc;
+}
+
+.b{
+    position: absolute;
+    top: 5%;
+    left: 56%;
+    border: 1px solid #ccc;
+}
+
+.c{
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    border: 1px solid #ccc;
+}
+
+.d{
+    position: absolute;
+    top: 10%;
+    left: 66%;
+    border: 1px solid #ccc;
+}
+
+.e{
+    position: absolute;
+    top: 15%;
+    left: 26%;
+    border: 1px solid #ccc;
+}
+
+.f{
+    position: absolute;
+    top: 15%;
+    left: 56%;
+    border: 1px solid #ccc;
+}
+
+.g{
+    position: absolute;
+    top: 20%;
+    left: 41%;
+    border: 1px solid #ccc;
+}

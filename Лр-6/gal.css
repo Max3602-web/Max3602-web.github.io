@@ -1,0 +1,5 @@
+
+img:hover {
+  transform: scale(1.2);
+  border: 1mm ridge darkblue;
+}

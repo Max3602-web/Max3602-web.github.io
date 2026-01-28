@@ -1,0 +1,10 @@
+li::marker {
+  content: "★"; 
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); 
+  color: gold; 
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+} 

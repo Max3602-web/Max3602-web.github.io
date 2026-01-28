@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #e37639;
+    background: linear-gradient(225deg, #e37639, #0180FF);
+    height: 1000px;
+}
+
+img{
+    height: 40px;
+    width: 50px;
+    left: 42%;
+    top: 25px;
+}
+
+h1{
+    display: inline;
+}
+
+.logo{
+    text-align: center;
+}
+
+.TEXT{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    margin: 10px 10%;
+}
+
+.cardiv{
+    position: relative;
+    border: dashed ;
+    background-color: gray; 
+    height: 15%;
+}
+
+.line{
+    position: absolute;
+    top: 45%;
+    margin: 1% 8%;
+    width: 84%;
+    border: dashed white;
+}
+
+.car{
+    position: absolute;
+    top: 43%;
+    left: 30px;
+    margin-top: -20px; 
+    animation-name: CarDrive;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    z-index: 1000;
+}
+
+
+
+@keyframes CarDrive {
+    0%{
+        left: 30px;
+    }
+    10%{
+        left: 92%;transform: rotate(0deg);top: 43%;
+    }
+    20%{
+        top: 80%;left: 92%;transform: rotate(90deg);
+    }
+    30%{
+        left: 92%;top: 80%;transform: rotate(180deg);
+    }
+    40%{
+        left: 30px;top: 80%;transform: rotate(180deg);
+    }
+    50%{
+        
+    }
+    60%{
+        transform: rotate(270deg);
+    }
+    70%{
+        
+    }
+    80%{
+        
+    }
+    90%{
+        
+    }
+    100%{
+        left: 30px;transform: rotate(360deg);
+    }
+}
+
+.cardiv:hover .car {
+  animation-play-state: running;
+}

@@ -1,0 +1,106 @@
+.lobo{
+    width: 120px;
+    height: 65px;
+    border-radius: 10px;
+    display: inline;
+    margin-right: 10px;
+}
+
+body{
+    margin: 0%;
+}
+
+.table{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    z-index: 100000000;
+    padding: 8px;
+}
+
+.gool{
+    width: 120px;
+    height: 65px;
+    border-radius: 10px;    
+    display: inline;
+    margin-right: 10px;
+}
+
+input{
+    width: 60%;
+    height: 60px;
+    border-radius: 10px; 
+    margin-right: 10px;  
+}
+
+#reg{
+    background-color: rgb(188,6,28);
+    color: white;
+}
+
+.foto{
+    padding-top: 70px;
+    flex-direction: column;
+    width: 220px;
+}
+
+.foto2{
+    margin-left: 225px;
+    top: 40px;
+    position: absolute;
+}
+
+.foto3{
+    margin-left: 450px;
+    top: 90px;
+    position: absolute;
+}
+
+.foto4{
+    margin-left: 675px;
+    top: 10px;
+    position: absolute;
+}
+
+.foto5{
+    margin-left: 900px;
+    top: 90px;
+    position: absolute;
+}
+
+.foto6{
+    margin-left: 1125px;
+    top: 40px;
+    position: absolute;
+}
+
+.foto7{
+    margin-left: 1350px;
+    top: 90px;
+    position: absolute;
+}
+
+img{
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.hh{
+    display: inline;
+}
+
+.bb{
+    display: inline;
+    border-radius: 100%;
+    /* margin-left: 40%; */
+    position: absolute;
+    left: 180px;
+}
+
+.info{
+    margin-bottom: 20px;
+}

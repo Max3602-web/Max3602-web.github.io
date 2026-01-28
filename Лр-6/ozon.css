@@ -1,0 +1,78 @@
+body{
+  color: gray;
+}
+
+h1{
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 10px;
+}
+
+li {
+  display: inline; 
+  margin-right: 20px;
+  margin-left: 10px; 
+  position: relative;
+}
+
+li:nth-child(1){
+  color: #00a6a6;
+}
+
+li:nth-child(1)::before{
+  content: ""; 
+  /* display: block; */
+  left: -17px;  
+  position: absolute;
+  width: 20px; 
+  height: 17px; 
+  background-image: url('C:/Users/Admin/Desktop/Политех/МДК 01 02/Лр-6/фото/ozon-fresh-8737872a910761808b0aa534039c5206.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px; 
+}
+
+li:nth-child(2)::before{
+  content: ""; 
+  left: -21px;
+  position: absolute;
+  width: 20px; 
+  height: 17px; 
+  background-image: url('C:/Users/Admin/Desktop/Политех/МДК 01 02/Лр-6/фото/debit-card-ozon.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  margin-right: 10px; 
+}
+
+li:nth-child(3)::before{
+  content: ""; 
+  left: -21px;
+  position: absolute;
+  width: 20px; 
+  height: 17px; 
+  background-image: url('C:/Users/Admin/Desktop/Политех/МДК 01 02/Лр-6/фото/1ФотоПолетSJ-100ОАК.jpg'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px; 
+}
+
+li:nth-child(4)::before{
+  content: ""; 
+  left: -21px;
+  position: absolute;
+  width: 20px; 
+  height: 17px; 
+  background-image: url('C:/Users/Admin/Desktop/Политех/МДК 01 02/Лр-6/фото/1724257259111141950.jpg'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px; 
+}
+
+
+li:hover {
+    color: blue;
+}
