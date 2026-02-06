@@ -69,7 +69,7 @@ class CustomFooter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final buttonColor = Colors.blue; // цвет кнопок
+// цвет кнопок
     final iconColor = Colors.red; // цвет иконок
 
     return Container(
