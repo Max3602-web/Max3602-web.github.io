@@ -63,3 +63,109 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+class CustomFooter extends StatelessWidget {
+  const CustomFooter({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final buttonColor = Colors.blue; // цвет кнопок
+    final iconColor = Colors.red; // цвет иконок
+
+    return Container(
+      padding: const EdgeInsets.all(10),
+      color: Colors.grey, // фон
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start, // выравнивание по левому краю
+        children: [
+          // Две кнопки
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.grey, // цвет фона
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                ),
+                child: const Text('Доставка и возврат'),
+              ),
+              const SizedBox(height: 8),
+              ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.grey,
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 12, vertical: 8,),
+                ),
+                child: const Text('Условия обслуживания',),
+              ),
+            ],
+          ),
+          const SizedBox(height: 10),
+          // Надпись
+          Text(
+            '© 2025 All rights reserved / ROCKIT',
+            style: TextStyle(fontSize: 12,color: Colors.white),
+            textAlign: TextAlign.left,
+          ),
+          const SizedBox(height: 10),
+          // Иконки соцсетей
+          Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              IconButton(
+                icon: const Icon(Icons.facebook),
+                color: iconColor,
+                onPressed: () {},
+              ),
+              IconButton(
+                icon: const Icon(Icons.camera_alt),
+                color: iconColor,
+                onPressed: () {
+                  //navigatorKey.currentState?.pushNamed();
+                },
+              ),
+              IconButton(
+                icon: const Icon(Icons.send),
+                color: iconColor,
+                onPressed: () {
+                },
+              ),
+              IconButton(
+                icon: const Icon(Icons.videogame_asset),
+                color: iconColor,
+                onPressed: () {
+                },
+              ),
+              IconButton(
+                icon: const Icon(Icons.message),
+                color: iconColor,
+                onPressed: () {
+                },
+              ),
+              IconButton(
+                icon: const Icon(Icons.add_location_sharp),
+                color: iconColor,
+                onPressed: () {
+                },
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  
+                },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.grey,
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 12, vertical: 8,),
+                ),
+                child: Text('Нажми меня')
+                ,)
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
